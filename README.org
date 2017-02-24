@@ -186,12 +186,43 @@ Now we've lost information about Fred ever lived on "Spring St."
 А иммутабельность позволяет радикально упростить архитекутру работы с данными
 #+END_NOTES
 
-* Declarative Logical Query Language /Datalog/
+* Declarative Logic Programming Language /Datalog/
+
+#+ATTR_REVEAL: :frag roll-in
+1977 [[http://en.wikipedia.org/wiki/Datalog][Datalog]] was created
+
+#+ATTR_REVEAL: :frag roll-in
+Syntactically it is a subset of *Prolog*
+
+** Query Example
+
+#+BEGIN_SRC
+
+#+END_SRC
+
+* *Datalog* is /orthogonal/ to *facts* model
+
+#+ATTR_REVEAL: :frag roll-in
+*Datalog* is applicable for any /structured data/ processing.
+
+#+ATTR_REVEAL: :frag roll-in
+But *Datomic* uses *Datalog* to process /Facts/ (*Datoms*).
+
+#+ATTR_REVEAL: :frag roll-in
+If you don't need history and only need to make requests for application state you can use /Open Source/ *Datalog* implementation [[https://github.com/tonsky/datascript][DataScript]]
+
+** *DataScript* Use Cases
+
+#+ATTR_REVEAL: :frag roll-in
+For example, you can use *DataScript* to:
+
+#+ATTR_REVEAL: :frag (appear)
+ * Store /Single Page Application's/ /State/
+ * Statically generate site from /Knowledge Base/ on *DataScript*
 
 #+BEGIN_NOTES
-1977 году создали подходящий язык для построения запросов к datom-ам - Datalog
-
-http://en.wikipedia.org/wiki/Datalog
+В конце сказать, что если не нужна история а нужен Datalog для удобных декларативных запросов к данным, то можно воспользоваться OpenSource-ным DataScript
+Это могут быть статически генерируемые сайты, или хранение состояния SPA-приложения.
 #+END_NOTES
 
 * Superpowers
@@ -199,16 +230,6 @@ http://en.wikipedia.org/wiki/Datalog
 #+BEGIN_NOTES
 Здесь нужно рассказать про выполнение аналитических запросов относительно консистентного значения всей БД в любой момент времени
 и возможность строить спекулятивные запросы
-#+END_NOTES
-
-* *Datalog* is /orthogonal/ to *facts* model
-
-Datalog применим для обработки любых структурированных данных.
-Но Datomic использует Datalog для обработки Datom-ов.
-
-#+BEGIN_NOTES
-В конце сказать, что если не нужна история а нужен Datalog для удобных декларативных запросов к данным, то можно воспользоваться OpenSource-ным DataScript
-Это могут быть статически генерируемые сайты, или хранение состояния SPA-приложения.
 #+END_NOTES
 
 * /Incidental complexity/ sources
