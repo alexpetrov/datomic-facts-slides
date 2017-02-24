@@ -228,15 +228,19 @@ If you don't need history and only need to make requests for application state y
 For example, you can use *DataScript* to:
 
 #+ATTR_REVEAL: :frag (appear)
- * Store /Single Page Application's/ /State/
+ * Store and query /Single Page Application's/ /State/
  * Statically generate site from /Knowledge Base/ on *DataScript*
 
-* Superpowers
+* *Datomic* /Superpowers/
 
-#+BEGIN_NOTES
-Здесь нужно рассказать про выполнение аналитических запросов относительно консистентного значения всей БД в любой момент времени
-и возможность строить спекулятивные запросы
-#+END_NOTES
+#+ATTR_REVEAL: :frag (appear)
+ * Query /consistent/ database value at /any moment/ in time
+ * Query /historic/ data
+ * Make /speculative/ *What If* queries
+ * Use /user defined functions/ in queries
+ * Use /user defined functions/ in on *Transactor* to ensure data integrity
+ * Listen to /all changes/ in the system and /react/
+ * Lookup /indexes/ directly for speed
 
 * /Incidental complexity/ sources
 
