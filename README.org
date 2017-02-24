@@ -15,7 +15,15 @@
 #+REVEAL_PLUGINS: (markdown notes)
 #+REVEAL_EXTRA_CSS: ./local.css
 
-* /Факты/ Про /Datomic/
+* /Факты/ про *Datomic*
+
+Presentation For [[https://www.meetup.com/Moscow-Clojure-Script-Meetup/events/236838714/][Moscow Clojure/ClojureScript Meetup]]
+
+by [[https://twitter.com/alexpetrov_rb][@alexpetrov_rb]]
+
+25 February 2017
+
+** /Факты/ про *Datomic*
 
 #+ATTR_REVEAL: :frag roll-in
 *Факт №1*
@@ -24,10 +32,10 @@
 *Datomic* про /Факты/
 
 #+ATTR_REVEAL: :frag roll-in
-"И это есть факт, Мусьё Дюк!"
+"И это есть /Факт/, Мусьё Дюк!"
 
 #+ATTR_REVEAL: :frag roll-in
-(c) Господин Смирнов. /"Неуловимые Мстители. Корона Российской Империи"/
+(c) Господин Смирнов. "/Неуловимые Мстители. Корона Российской Империи/"
 
 * About me
 
