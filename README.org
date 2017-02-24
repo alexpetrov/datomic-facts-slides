@@ -86,6 +86,8 @@ Datomic реализует хранение ситуаций в виде тра�
 Здесь нужно рассказать, что такая модель данных делает данные иммутабельными как при работе с данными на бумаге
 #+END_NOTES
 
+** Places Vs Facts
+
 * /Simple/ Architecture
 
 #+BEGIN_NOTES
@@ -165,8 +167,36 @@ https://github.com/cognitect-labs/vase/blob/master/docs/your_first_api.md
 
 * Datomic for non Clojure
 
+* Summary
+
 * Learning Datomic
 
 * Acknowledgments
+
+#+ATTR_REVEAL: :frag roll-in
+*Николай Рыжиков* - за знакомство с /Datomic/ и /Clojure/ [[https://plus.google.com/u/0/+%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%A0%D1%8B%D0%B6%D0%B8%D0%BA%D0%BE%D0%B2/posts/br5A7HMEXY5][Осенью 2013]], знакомство с [[https://github.com/hakimel/reveal.js/][Reveal.js]] и название доклада
+
+#+ATTR_REVEAL: :frag roll-in
+*Никита Прокопов* - за преподавание на [[http://clojurecourse.by/][ClojureCource.by]] весной 2014 и /Open Source/ [[https://github.com/tonsky/datascript][DataScript]] и [[https://github.com/tonsky/rum][RUM]]
+
+#+ATTR_REVEAL: :frag roll-in
+*Сергей Ткаченко* - за [[https://www.meetup.com/Moscow-Clojure-Script-Meetup/][Moscow Clojure/ClojureScript Meetup]] и приглашение сделать доклад
+
+#+ATTR_REVEAL: :frag roll-in
+*Rich Hickey* - за [[https://clojure.org/][Clojure]] и [[http://www.datomic.com/][Datomic]]
+
+#+ATTR_REVEAL: :frag roll-in
+*Stuart Halloway* - За [[http://www.datomic.com/][Datomic]], [[https://github.com/Datomic/simulant][Simulant]] и мою первую прочитанную книгу по Clojure [[https://pragprog.com/book/shcloj2/programming-clojure][Programing Clojure]]
+
+#+ATTR_REVEAL: :frag roll-in
+[[https://www.gnu.org/software/emacs/][GNU Emacs]], [[http://orgmode.org/][Org Mode]], [[https://github.com/yjwen/org-reveal][Org-Reveal]], [[http://cinsk.github.io//emacs/emacs-artist.html][Artist Mode]], [[https://github.com/bbatsov/prelude][Prelude]]
+
+* Links
+
+[[http://blog.cognitect.com/cognicast/059-michael-nygard?rq=simulant][Cognicast Episode 059]] With *Michael Nygard* about /simulation testing/
+
+[[http://blog.cognitect.com/cognicast/101?rq=arachne][Cognicast Episode 101]] With *Luke Vanderhart* about /Arachne/ web framework wich uses /Dataomic/ in memory database for components configuration
+
+[[http://blog.cognitect.com/cognicast/118][Cognicast Episode 118]] with *Paul deGrandis* about /Vase/ data-driven /microservices/ library
 
 * Questions and Additions
