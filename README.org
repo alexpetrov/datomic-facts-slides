@@ -196,9 +196,18 @@ Syntactically it is a subset of *Prolog*
 
 ** Query Example
 
-#+BEGIN_SRC
+#+ATTR_REVEAL: :frag roll-in
+Query: Owner names of dog named "Tiny"
 
+#+ATTR_REVEAL: :frag roll-in
+#+BEGIN_SRC clojure
+'[:find ?owner-name
+  :where [?dog :dog/name "Tiny"]
+         [?owner :owner/dogs ?dog]
+         [?owner :owner/name ?owner-name]]
 #+END_SRC
+
+Example from [[http://gigasquidsoftware.com/blog/2015/08/15/conversations-with-datomic/][Conversations With Datomic]] article by Carin Meier
 
 * *Datalog* is /orthogonal/ to *facts* model
 
@@ -211,7 +220,7 @@ But *Datomic* uses *Datalog* to process /Facts/ (*Datoms*).
 #+ATTR_REVEAL: :frag roll-in
 If you don't need history and only need to make requests for application state you can use /Open Source/ *Datalog* implementation [[https://github.com/tonsky/datascript][DataScript]]
 
-** *DataScript* Use Cases
+** Some *DataScript* Use Cases
 
 #+ATTR_REVEAL: :frag roll-in
 For example, you can use *DataScript* to:
@@ -219,11 +228,6 @@ For example, you can use *DataScript* to:
 #+ATTR_REVEAL: :frag (appear)
  * Store /Single Page Application's/ /State/
  * Statically generate site from /Knowledge Base/ on *DataScript*
-
-#+BEGIN_NOTES
-В конце сказать, что если не нужна история а нужен Datalog для удобных декларативных запросов к данным, то можно воспользоваться OpenSource-ным DataScript
-Это могут быть статически генерируемые сайты, или хранение состояния SPA-приложения.
-#+END_NOTES
 
 * Superpowers
 
