@@ -182,6 +182,8 @@ Now we've lost information about Fred ever lived on "Spring St."
 +----------------------------------------------------------------------------+
 #+END_SRC
 
+Architecture [[http://docs.datomic.com/architecture.html][Overview]]
+
 #+BEGIN_NOTES
 А иммутабельность позволяет радикально упростить архитекутру работы с данными
 #+END_NOTES
@@ -294,12 +296,21 @@ I want to inspire people to:
  * Use *Datomic* and *DataScript* for /pet projects/ or /production/
  * Implement /Open Source/ *Datomic* for *JVM* and *Erlang BEAM*
  * Develop *job market* without /incidental complexity/ sources
+ * Not put up with unnecessary /incidental complexity/
 
-* Learning Datomic
+* Learn *Datomic*
 
-#+BEGIN_NOTES
-http://www.learndatalogtoday.org/
-#+END_NOTES
+#+ATTR_REVEAL: :frag roll-in
+Videos from [[http://clojurecourse.by/][ClojureCourse.by]] by [[https://github.com/tonsky][Nikita Prokopov]]
+
+#+ATTR_REVEAL: :frag roll-in
+Interactive course [[http://www.learndatalogtoday.org/][Learn Datalog Today]]
+
+#+ATTR_REVEAL: :frag roll-in
+Articles by Carin Meyer [[http://gigasquidsoftware.com/blog/2015/08/15/conversations-with-datomic/][Conversations With Datomic]]
+
+#+ATTR_REVEAL: :frag roll-in
+Great [[http://blog.datomic.com/][Datomic Blog]] and [[http://docs.datomic.com/tutorial.html][Documentation]]
 
 * Acknowledgments
 
