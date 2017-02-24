@@ -80,13 +80,81 @@ Datomic реализует хранение ситуаций в виде тра�
 
 ** Example
 
-** Immutability
+#+ATTR_REVEAL: :frag roll-in
+As of *1976* Great Guitar Player [[https://en.wikipedia.org/wiki/Robben_Ford][Robben Ford]] plays in /Yellowjackets/
+
+#+ATTR_REVEAL: :frag roll-in
+| Entity        | Attribute | Value             | Timestamp |
+|---------------+-----------+-------------------+-----------|
+| *Robben Ford* | Plays in  | "/Yellowjackets/" | *1976*    |
+
+#+ATTR_REVEAL: :frag roll-in
+Then as of *1986* he plays in /Miles Davis's Band/
+
+#+ATTR_REVEAL: :frag roll-in
+| Entity        | Attribute | Value                  | Timestamp |
+|---------------+-----------+------------------------+-----------|
+| *Robben Ford* | Plays in  | "/Miles Davis's Band/" | *1986*    |
 
 #+BEGIN_NOTES
-Здесь нужно рассказать, что такая модель данных делает данные иммутабельными как при работе с данными на бумаге
+При этом вместе с ним в группе играли и другие музыканты и факты об этом истиннны в тот же момент времени.
 #+END_NOTES
 
-** Places Vs Facts
+** Immutability
+
+#+ATTR_REVEAL: :frag roll-in
+Imagine [[https://en.wikipedia.org/wiki/General_ledger][General Ledger]]
+
+#+ATTR_REVEAL: :frag roll-in
+We save records on paper
+
+#+ATTR_REVEAL: :frag roll-in
+When situation changes we create *new* records
+
+#+ATTR_REVEAL: :frag roll-in
+We /NEVER/ /remove/ *old* records
+
+#+ATTR_REVEAL: :frag roll-in
+Lack of computer disc space made us use /Place/ oriented way of saving data
+
+#+ATTR_REVEAL: :frag roll-in
+Now these *space* *restrictions* are not relevant anymore
+
+** *Facts* vs *Places*
+
+*Places*
+
+| Name | Street       |
+| fred | "Spring St." |
+
+** *Facts* vs *Places*
+
+*Places*
+
+| Name | Street         |
+| fred | +"Spring St."+  |
+
+#+ATTR_REVEAL: :frag roll-in
+Now we've lost information about Fred ever lived on "Spring St."
+
+** *Facts* vs *Places*
+
+*Places*
+
+| Name | Street      |
+| fred | "Maple St." |
+
+#+ATTR_REVEAL: :frag roll-in
+*Facts*
+
+#+ATTR_REVEAL: :frag roll-in
+| *fred* | :street | "Spring St." | *T15* |
+
+#+ATTR_REVEAL: :frag roll-in
+*fred* moves to "Maple St."
+
+#+ATTR_REVEAL: :frag roll-in
+| *fred* | :street | "Maple St." | *T36* |
 
 * /Simple/ Architecture
 
