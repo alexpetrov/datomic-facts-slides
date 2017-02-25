@@ -300,16 +300,48 @@ SingleThreaded Transactor всё время тратит на запись да�
 
 #+END_NOTES
 
-* Why is it worth doing
+* Why is it worth investing
 
-#+BEGIN_NOTES
-На закуску оставить детали реализации и почему это сегодня можно использовать в продакшне не смотря на кажущуюся "Дороговизну" хранения горячего набора данных в памяти.
-Можно привести примерные цифры Capacity Planning для разных кусков БД.
-И сравнить с использованием проприетарной OLTP БД, ETL платформы и OLAP БД.
-Высказать гипотезу, что за счёт многоуровнвого сжатия индексов в Datomic те же данные, возмножно будут занимать меньше места чем в OLAP базе с историческими данными.
-#+END_NOTES
+** *Datomic* saves all historic data
 
-* Datomic for non Clojure
+#+ATTR_REVEAL: :frag (appear)
+If /data/ worth saving, all /historic data/ worth saving as well.
+
+#+ATTR_REVEAL: :frag (appear)
+You will do it anyway in *OLAP* database.
+
+#+ATTR_REVEAL: :frag (appear)
+[[http://docs.datomic.com/capacity.html][Capacity Planning]]
+
+** *Datomic* downloads hot dataset in memory
+
+#+ATTR_REVEAL: :frag (appear)
+Any business application downloads hot dataset in memory
+
+#+ATTR_REVEAL: :frag (appear)
+But *Datomic* doing it smarter, giving you a lot of benefits
+
+** *Datomic* is a proprietary software
+
+#+ATTR_REVEAL: :frag (appear)
+But it was developed by *Rich Hickey* and *Stuart Halloway*
+
+#+ATTR_REVEAL: :frag (appear)
+And it is totally [[http://www.datomic.com/get-datomic.html][free]] for one year of updates
+
+#+ATTR_REVEAL: :frag (appear)
+If you are using proprietary *DBs* for *OLTP*, *ETL* and *OLAP*
+
+#+ATTR_REVEAL: :frag (appear)
+You can [[http://www.datomic.com/get-datomic.html][afford]] using *Datomic*
+
+* *Datomic* for non *Clojure*
+
+#+ATTR_REVEAL: :frag (appear)
+*Datomic* supports all *JVM* languages
+
+#+ATTR_REVEAL: :frag (appear)
+Non *JVM* languages supported via *REST API*
 
 * Summary
 
