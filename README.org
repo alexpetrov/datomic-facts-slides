@@ -39,6 +39,27 @@ by [[https://twitter.com/alexpetrov_rb][@alexpetrov_rb]]
 
 * About me
 
+#+ATTR_REVEAL: :frag roll-in
+*Alexander Petrov* (a.k.a Lysenko) [[https://twitter.com/alexpetrov_rb][@alexpetrov_rb]]
+
+#+ATTR_REVEAL: :frag roll-in
+*Ruby* / *Rails* / *Erlang* Developer at [[http://fun-box.ru/][FunBox]]
+
+#+ATTR_REVEAL: :frag roll-in
+*2006 - 2014* Enterprise *Java* Developer
+
+#+ATTR_REVEAL: :frag roll-in
+Strategically Learn *Elixir*
+
+#+ATTR_REVEAL: :frag roll-in
+Love *Clojure*
+
+#+ATTR_REVEAL: :frag roll-in
+Pet project [[https://github.com/alexpetrov/kmg][Knowledge Media Guide]] on *Clojure*, *Datomic*, *Enlive*
+
+#+ATTR_REVEAL: :frag roll-in
+Recommendation of /Knowledge Media/ by /Specializaitons/
+
 * Modeling
 
 #+ATTR_REVEAL: :frag roll-in
