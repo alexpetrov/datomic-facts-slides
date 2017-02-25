@@ -91,7 +91,7 @@ The /Idea/ of simulating /Time/ along With /Process/ and /States/ appeared in th
     *2012* /Rich Hickey/ implemented the idea in [[http://www.datomic.com/][Datomic]] database
 
 #+ATTR_REVEAL: :frag roll-in
-    *2012 November* /Stuart Halloway/ implemented [[https://github.com/Datomic/simulant/wiki][Simulant]] library to [[https://www.infoq.com/presentations/Simulation-Testing][simulation test]] *Datomic* based systems
+    *2012* /Stuart Halloway/ implemented [[https://github.com/Datomic/simulant/wiki][Simulant]] library to [[https://www.infoq.com/presentations/Simulation-Testing][simulation test]] *Datomic* based systems
 
 #+BEGIN_NOTES
 Datomic реализует хранение ситуаций в виде транзакций, а Simulant проигрывает эти ситуации имитируя время с разной скоростью.
@@ -99,7 +99,7 @@ Datomic реализует хранение ситуаций в виде тра�
 Всё это делается, чтобы иметь рандомизированные повторяемые black box тесты системы.
 #+END_NOTES
 
-** Example
+** *Facts* Example
 
 #+ATTR_REVEAL: :frag roll-in
 As of *1976* Great Guitar Player [[https://en.wikipedia.org/wiki/Robben_Ford][Robben Ford]] plays in /Yellowjackets/
@@ -143,30 +143,34 @@ Now these *space* *restrictions* are not relevant anymore
 
 ** *Facts* vs *Places*
 
-*Places*
+Fred lives on "Spring St."
+
+*Place* oriented storage
 
 | Name | Street       |
 | fred | "Spring St." |
 
 ** *Facts* vs *Places*
 
-*Places*
+*Place* oriented storage
+
+*fred* moves to "Maple St."
 
 | Name | Street         |
-| fred | +"Spring St."+  |
+| fred | +"Spring St."+ |
 
 #+ATTR_REVEAL: :frag roll-in
 Now we've lost information about Fred ever lived on "Spring St."
 
 ** *Facts* vs *Places*
 
-*Places*
+*Place* oriented storage
 
 | Name | Street      |
 | fred | "Maple St." |
 
 #+ATTR_REVEAL: :frag roll-in
-*Facts*
+*Facts* oriented storage
 
 #+ATTR_REVEAL: :frag roll-in
 | *fred* | :street | "Spring St." | *T15* |
@@ -220,12 +224,12 @@ Syntactically it is a subset of *Prolog*
 ** Query Example
 
 #+ATTR_REVEAL: :frag roll-in
-Query: Owner names of dog named "Tiny"
+/Query/: /Owner names/ of /dog/ "Tiny"
 
 #+ATTR_REVEAL: :frag roll-in
 #+BEGIN_SRC clojure
 '[:find ?owner-name
-  :where [?dog :dog/name "Tiny"]
+  :where [?dog   :dog/name   "Tiny"]
          [?owner :owner/dogs ?dog]
          [?owner :owner/name ?owner-name]]
 #+END_SRC
@@ -258,8 +262,8 @@ For example, you can use *DataScript* to:
  * Query /consistent/ database value at /any moment/ in time
  * Query /historic/ data
  * Make /speculative/ *What If* queries
- * Use /user defined functions/ in queries
- * Use /user defined functions/ in on *Transactor* to ensure data integrity
+ * Use /user defined functions/ and /rules/ in queries
+ * Use /user defined functions/ on *Transactor* for data integrity
  * Listen to /all changes/ in the system and /react/
  * Lookup /indexes/ directly for speed
 
@@ -350,9 +354,9 @@ I want to inspire people to:
 #+ATTR_REVEAL: :frag (appear)
  * Consider /ideas/ *Datomic* based on
  * Learn *Datomic* and *Datalog*
- * Use *Datomic* and *DataScript* for /pet projects/ or /production/
+ * Use *Datomic* and *DataScript* for /pet projects/ and /production/
  * Implement /Open Source/ *Datomic* for *JVM* and *Erlang BEAM*
- * Develop *job market* without /incidental complexity/ sources
+ * Develop *job market* without /incidental complexity/
  * Not put up with unnecessary /incidental complexity/
 
 * Learn *Datomic*
