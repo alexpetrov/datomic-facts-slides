@@ -63,18 +63,34 @@ Recommendation of /Knowledge Media/ by /Specializaitons/
 * Modeling
 
 #+ATTR_REVEAL: :frag roll-in
-  Что если моделировать /мир/ как набор /ситуаций/?
+  What if we represent part of /the world/ being digitized as a set of /situations/?
+
+#+BEGIN_NOTES
+Что если моделировать /мир/ как набор /ситуаций/?
+#+END_NOTES
 
 #+ATTR_REVEAL: :frag roll-in
-  /Ситуация/ - это набор /фактов/ согласованных друг с другом в конкретный /момент времени/.
+  /Situation/ is a set of /facts/ that are consistent with each other as of particular /point in time/.
+
+#+BEGIN_NOTES
+/Ситуация/ - это набор /фактов/ согласованных друг с другом в конкретный /момент времени/.
+#+END_NOTES
 
 #+ATTR_REVEAL: :frag roll-in
-  В рамках моделируемой части /мира/ нас не будет интересовать ничего за пределами /ситуаций/.
+  We won't care about anything besides these /situations/.
+
+#+BEGIN_NOTES
+ В рамках моделируемой части /мира/ нас не будет интересовать ничего за пределами /ситуаций/.
+#+END_NOTES
 
 #+ATTR_REVEAL: :frag roll-in
-  Мы сможем проигрывать /мир/ функциональным образом проходя через все /ситуации/ хвостовой рекурсией.
+  Having a log of situations we might replay /the world/ with a /tail recursion/ in a completely /functional fasion/.
 
-Из видео: [[https://www.youtube.com/watch?v=fhOHn9TClXY&feature=youtu.be&t=19m23s][Joe Armstrong Interviews Alan Kay]]
+#+BEGIN_NOTES
+Имея журнал ситуаций, мы сможем проигрывать /мир/ функциональным образом проходя через все /ситуации/ хвостовой рекурсией.
+#+END_NOTES
+
+Source talk: [[https://www.youtube.com/watch?v=fhOHn9TClXY&feature=youtu.be&t=19m23s][Joe Armstrong Interviews Alan Kay]]
 
 #+BEGIN_NOTES
 Set of states in the world, that are consistent with each other at a particular time
