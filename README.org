@@ -118,12 +118,12 @@ Datomic реализует хранение ситуаций в виде тра�
 ** *Facts* Example
 
 #+ATTR_REVEAL: :frag roll-in
-As of *1976* Great Guitar Player [[https://en.wikipedia.org/wiki/Robben_Ford][Robben Ford]] plays in /Yellowjackets/
+As of *1979* Great Guitar Player [[https://en.wikipedia.org/wiki/Robben_Ford][Robben Ford]] plays in /Yellowjackets/
 
 #+ATTR_REVEAL: :frag roll-in
 | Entity        | Attribute | Value             | Timestamp |
 |---------------+-----------+-------------------+-----------|
-| *Robben Ford* | Plays in  | "/Yellowjackets/" | *1976*    |
+| *Robben Ford* | Plays in  | "/Yellowjackets/" | *1979*    |
 
 #+ATTR_REVEAL: :frag roll-in
 Then as of *1986* he plays in /Miles Davis's Band/
