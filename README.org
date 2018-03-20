@@ -410,22 +410,16 @@ Great [[http://blog.datomic.com/][Datomic Blog]] and [[http://docs.datomic.com/t
 
 * Acknowledgments
 
-#+ATTR_REVEAL: :frag roll-in
-*Николай Рыжиков* - за знакомство с /Datomic/ и /Clojure/ [[https://plus.google.com/u/0/+%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%A0%D1%8B%D0%B6%D0%B8%D0%BA%D0%BE%D0%B2/posts/br5A7HMEXY5][Осенью 2013]], знакомство с [[https://github.com/hakimel/reveal.js/][Reveal.js]] и название доклада
+*Николай Рыжиков* - за знакомство с /Datomic/ и /Clojure/ [[https://plus.google.com/u/0/+%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%A0%D1%8B%D0%B6%D0%B8%D0%BA%D0%BE%D0%B2/posts/br5A7HMEXY5][в 2013]], знакомство с [[https://github.com/hakimel/reveal.js/][Reveal.js]] и название доклада
 
-#+ATTR_REVEAL: :frag roll-in
-*Никита Прокопов* - за преподавание на [[http://clojurecourse.by/][ClojureCource.by]] весной 2014 и /Open Source/ [[https://github.com/tonsky/datascript][DataScript]] и [[https://github.com/tonsky/rum][RUM]]
+*Никита Прокопов* - за преподавание на [[http://clojurecourse.by/][ClojureCource.by]] в 2014 и /Open Source/ [[https://github.com/tonsky/datascript][DataScript]] и [[https://github.com/tonsky/rum][RUM]]
 
-#+ATTR_REVEAL: :frag roll-in
-*Сергей Ткаченко* - за [[https://www.meetup.com/Moscow-Clojure-Script-Meetup/][Moscow Clojure/ClojureScript Meetup]] и приглашение сделать доклад
+*Сергей Ткаченко* - за [[https://www.meetup.com/Moscow-Clojure-Script-Meetup/][Moscow Clojure/CLJS Meetup]] и приглашение сделать доклад
 
-#+ATTR_REVEAL: :frag roll-in
 *Rich Hickey* - за [[https://clojure.org/][Clojure]] и [[http://www.datomic.com/][Datomic]]
 
-#+ATTR_REVEAL: :frag roll-in
 *Stuart Halloway* - За [[http://www.datomic.com/][Datomic]], [[https://github.com/Datomic/simulant][Simulant]] и мою первую прочитанную книгу по Clojure [[https://pragprog.com/book/shcloj2/programming-clojure][Programing Clojure]]
 
-#+ATTR_REVEAL: :frag roll-in
 [[https://www.gnu.org/software/emacs/][GNU Emacs]], [[http://orgmode.org/][Org Mode]], [[https://github.com/yjwen/org-reveal][Org-Reveal]], [[http://cinsk.github.io//emacs/emacs-artist.html][Artist Mode]], [[https://github.com/bbatsov/prelude][Prelude]]
 
 * Links
