@@ -322,6 +322,20 @@ SingleThreaded Transactor всё время тратит на запись да�
 
 * Why is it worth investing
 
+** *Datomic* reflects the way you think of information
+
+#+ATTR_REVEAL: :frag (appear)
+That's why it is the best choice to implement your own ideas and projects.
+
+#+ATTR_REVEAL: :frag (appear)
+No incidental complexity, no restrictions, no crutches, no pain.
+
+#+ATTR_REVEAL: :frag (appear)
+In fact you have [[https://martinfowler.com/eaaDev/EventSourcing.html][Event Sourcing]] and [[https://martinfowler.com/bliki/CQRS.html][CQRS]] with no cost.
+
+#+ATTR_REVEAL: :frag (appear)
+[[https://martinfowler.com/eaaDev/EventSourcing.html][Event Sourcing]] pattern is just /a crutch/ for an outdated /place oriented/ data model.
+
 ** *Datomic* saves all historic data
 
 #+ATTR_REVEAL: :frag (appear)
