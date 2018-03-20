@@ -43,7 +43,7 @@ by [[https://twitter.com/alexpetrov_rb][@alexpetrov_rb]]
 *Alexander Petrov* (a.k.a Lysenko) [[https://twitter.com/alexpetrov_rb][@alexpetrov_rb]]
 
 #+ATTR_REVEAL: :frag roll-in
-*Ruby* / *Rails* / *Erlang* Developer at [[http://fun-box.ru/][FunBox]]
+Senior *Ruby* / *Rails* / *Erlang* Developer at [[http://fun-box.ru/][FunBox]]
 
 #+ATTR_REVEAL: :frag roll-in
 *2006 - 2014* Enterprise *Java* Developer
