@@ -292,6 +292,7 @@ For example, you can use *DataScript* to:
    * Integration
    * *SPA* /Stateful/ Client
    * *DB* related /Concurrency/
+   * Scaling writes and reads separately
 
 ** /Desease/ -> *Datomic* /Treatment/
 
@@ -303,6 +304,7 @@ For example, you can use *DataScript* to:
 | Integration ( [[https://martinfowler.com/articles/microservices.html]["Microservices"]] ) | -> [[http://docs.datomic.com/project-setup.html][Client]], [[http://docs.datomic.com/rest.html][REST]], [[https://github.com/cognitect-labs/vase][Vase]]     |
 | /SPA/ Client /State Management/ | -> [[http://docs.datomic.com/rest.html][REST SSE]], [[https://github.com/tonsky/datascript][DataScript]]   |
 | [[https://www.infoq.com/presentations/Simulation-Testing][Simulation Testing]]              | -> [[https://github.com/Datomic/simulant][Simulant]]               |
+| Scaling writes/reads separately | -> [[https://docs.datomic.com/on-prem/architecture.html][Datomic Architecture]]   |
 
 #+ATTR_REVEAL: :frag roll-in
 /Datomic/ [[http://docs.datomic.com/rest.html][REST API]] works but considered legacy
