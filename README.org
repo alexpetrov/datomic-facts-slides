@@ -84,7 +84,7 @@ Recommendation of /Knowledge Media/ by /Specializaitons/
 #+END_NOTES
 
 #+ATTR_REVEAL: :frag roll-in
-  Having a log of situations we might replay /the world/ with a /tail recursion/ in a completely /functional fasion/.
+  Having a log of situations, we might replay /the world/ with a /tail recursion/ in a completely /functional fasion/.
 
 #+BEGIN_NOTES
 Имея журнал ситуаций, мы сможем проигрывать /мир/ функциональным образом проходя через все /ситуации/ хвостовой рекурсией.
@@ -392,7 +392,7 @@ I want to inspire people to:
  * Use *Datomic* and *DataScript* for /pet projects/ and /production/
  * Implement /Open Source/ *Datomic* for *JVM* and *Erlang BEAM*
  * Develop *job market* without /incidental complexity/
- * Not put up with unnecessary /incidental complexity/
+ * Quit tolerate unnecessary /incidental complexity/
 
 * Learn *Datomic*
 
