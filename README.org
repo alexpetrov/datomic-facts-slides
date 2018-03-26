@@ -360,7 +360,7 @@ But *Datomic* doing it smarter, giving you a lot of benefits
 ** *Datomic* is a proprietary software
 
 #+ATTR_REVEAL: :frag (appear)
-And always gonna [[https://defn.audio/episodes/2017/07/24/stu.html][be closed source]]
+And always gonna [[https://soundcloud.com/defn-771544745/23-the-right-honourable-stuart-halloway][be closed source]]
 
 #+ATTR_REVEAL: :frag (appear)
 But it was developed by *Rich Hickey* and *Stuart Halloway*
@@ -423,8 +423,8 @@ Great [[http://blog.datomic.com/][Datomic Blog]] and [[http://docs.datomic.com/t
 [[https://www.gnu.org/software/emacs/][GNU Emacs]], [[http://orgmode.org/][Org Mode]], [[https://github.com/yjwen/org-reveal][Org-Reveal]], [[http://cinsk.github.io//emacs/emacs-artist.html][Artist Mode]], [[https://github.com/bbatsov/prelude][Prelude]]
 
 * Links
-[[https://defn.audio/episodes/2017/07/24/stu.html][
-Defn Episode 23]] with *Stuart Halloway* about history of /Cognitect/ and /Datomic/ past and future
+
+[[https://soundcloud.com/defn-771544745/23-the-right-honourable-stuart-halloway][Defn Episode 23]] with *Stuart Halloway* about history of /Cognitect/ and /Datomic/ past and future
 
 [[http://blog.cognitect.com/cognicast/059-michael-nygard?rq=simulant][Cognicast Episode 059]] With *Michael Nygard* about /simulation testing/
 
