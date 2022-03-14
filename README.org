@@ -294,7 +294,7 @@ For example, you can use *DataScript* to:
    * *DB* related /Concurrency/
    * Scaling writes and reads separately
 
-** /Desease/ -> *Datomic* /Treatment/
+** /Disease/ -> *Datomic* /Treatment/
 
 #+ATTR_REVEAL: :frag roll-in
 | Impedance Mismatch              | -> [[http://docs.datomic.com/pull.html][Pull API]]               |
